@@ -6,8 +6,9 @@ public class BonusService {
     if (bonus > limit) {
       bonus = limit;
     }
+    System.out.println(bonus);
     return bonus;
   }
-}
 
+}
 
